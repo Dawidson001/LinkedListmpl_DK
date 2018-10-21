@@ -11,10 +11,12 @@ public class Main {
         //////Array
 
         CustomList<String> customList = new CustomLinkedList<>();
-        customList.add("1");
-        customList.add("2");
-        customList.add("3");
-        customList.add("4");
+        customList.addTail("1");
+        customList.addTail("2");
+        customList.addTail("3");
+        customList.addTail("4");
+        customList.addTail("5");
+        customList.addTail("6");
 
         List<String>list = new LinkedList<>();
 
