@@ -10,6 +10,12 @@ public class Main {
 
         //////Array
 
+        CustomList<String> customList = new CustomLinkedList<>();
+        customList.add("1");
+        customList.add("2");
+        customList.add("3");
+        customList.add("4");
+
         List<String>list = new LinkedList<>();
 
         list.add("Jan");
